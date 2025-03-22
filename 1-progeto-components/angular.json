@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "progeto-components": {
+    "1-progeto-components": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/progeto-components",
+            "outputPath": "dist/1-progeto-components",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -77,10 +77,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "progeto-components:build:production"
+              "buildTarget": "1-progeto-components:build:production"
             },
             "development": {
-              "buildTarget": "progeto-components:build:development"
+              "buildTarget": "1-progeto-components:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -112,5 +112,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "40b45171-8566-421e-b566-e872abd3c016"
   }
 }
