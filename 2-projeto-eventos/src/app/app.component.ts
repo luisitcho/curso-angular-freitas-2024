@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     styleUrl: './app.component.scss'
 })
 export class AppComponent {
-    title = 'projeto-eventos';
+    title = '2-projeto-eventos';
     inputText = 'Texto Inicial';
     inputType = "text";
     istDisabled = true;

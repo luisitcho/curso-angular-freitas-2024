@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "projeto-eventos": {
+    "2-projeto-eventos": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/projeto-eventos",
+            "outputPath": "dist/2-projeto-eventos",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -76,10 +76,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "projeto-eventos:build:production"
+              "buildTarget": "2-projeto-eventos:build:production"
             },
             "development": {
-              "buildTarget": "projeto-eventos:build:development"
+              "buildTarget": "2-projeto-eventos:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -110,5 +110,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "776a0931-4640-4361-ae87-5a8aaf888446"
   }
 }
