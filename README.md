@@ -82,3 +82,8 @@ npx ng add @angular/material
 ```
 npx ng generate component meu-componente --selector=app-meu-componente
 ```
+
+### Criar um novo componente e associá-lo a um módulo específico
+```
+npx ng generate component meu-componente --module=card
+```
