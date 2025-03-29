@@ -29,4 +29,10 @@
         cursor: pointer;
         font-weight: bold;
     }
+
 }
+
+:host ::ng-deep .card-cancel-button {
+    background-color: red !important;
+}
+
