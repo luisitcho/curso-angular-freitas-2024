@@ -5,7 +5,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
     standalone: false,
     templateUrl: './card.component.html',
     styleUrl: './card.component.scss',
-    encapsulation: ViewEncapsulation.ShadowDom
+    // encapsulation: ViewEncapsulation.ShadowDom
 })
 export class CardComponent {
     tipo: string = 'Simples';
