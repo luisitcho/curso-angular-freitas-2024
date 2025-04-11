@@ -31,4 +31,8 @@ export class AppComponent {
     logInputText() {
         console.log(this.inputText);
     }
+
+    handleInputKeyup(event: KeyboardEvent) {
+        console.log((event.target as HTMLInputElement)?.value);
+    }
 }
