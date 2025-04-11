@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@use "tailwindcss";
+
+/* styles.css */
+.container {
+    @apply mx-auto px-[15px];
+  }
