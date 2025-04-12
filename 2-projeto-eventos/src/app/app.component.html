@@ -20,4 +20,20 @@
     <div class="mt-1">
         <button class="btn" (click)="logInputText()">Log</button>
     </div>
+
+    <hr>
+
+
+    <h1 class="font-medium mb-3 mt-5">Attribute Binding</h1>
+
+    <div class="mt-5">
+        <button class="btn" [attr.title]="buttonTitle">Botão teste</button>
+        <button class="btn" [attr.disabled]="buttonDisabled ? true : null">Disabled</button>
+    </div>
+
+    <div class="mt-1">
+        <button class="btn" (click)="onButtonClick()">Mudar props</button>
+    </div>
+
+    <hr>
 </div>

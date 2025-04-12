@@ -35,4 +35,12 @@ export class AppComponent {
     handleInputKeyup(event: KeyboardEvent) {
         console.log((event.target as HTMLInputElement)?.value);
     }
+
+    buttonTitle = 'Clique aqui';
+    buttonDisabled = true;
+
+    onButtonClick() {
+        this.buttonTitle = `Clicou! ${Math.round(Math.random() * 100)}`;
+        this.buttonDisabled = !this.buttonDisabled;
+    }
 }
