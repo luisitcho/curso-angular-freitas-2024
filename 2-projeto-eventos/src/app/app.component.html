@@ -1,9 +1,7 @@
 <div class="container">
 
-    <input [type]="inputType" [ngClass]="{
-        'input border-1 border-gray-300 rounded p-2 bg-green-50 border border-green-500 text-green-900': true,
-        'cursor-not-allowed bg-red-50 border border-red-500 text-red-900 placeholder-red-700': isDisabled
-        }" placeholder="Digite o nome do evento" [value]="inputText" [disabled]="isDisabled"
+    <input [type]="inputType" [ngClass]="{ 'input-element': true, 'input-element--disabled': isDisabled }"
+        placeholder="Digite o nome do evento" [value]="inputText" [disabled]="isDisabled"
         (keyup)="handleInputKeyup($event)">
 
     <br>
