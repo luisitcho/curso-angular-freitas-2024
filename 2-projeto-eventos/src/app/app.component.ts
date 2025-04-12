@@ -20,7 +20,7 @@ export class AppComponent {
         this.isDisabled = true;
     }
 
-    setPasswornTypeInput() {
+    setPasswordTypeInput() {
         this.inputType = 'password';
     }
 
