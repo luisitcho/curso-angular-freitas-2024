@@ -21,3 +21,15 @@
         @apply cursor-not-allowed bg-red-50 border border-red-500 text-red-900 placeholder-red-700;
     }
 }
+
+.bg-red-900 {
+    background-color: #82181a;
+}
+
+.bg-sky-900 {
+    background-color: #024a71;
+}
+
+.bg-sky-500\/10 {
+    background-color: color-mix(in oklab, #00a6f4 10%, transparent);
+}

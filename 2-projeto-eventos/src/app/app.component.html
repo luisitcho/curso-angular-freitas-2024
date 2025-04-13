@@ -60,4 +60,19 @@
 
     </div>
 
+    <h1 class="font-medium mb-3 mt-5">Class Binding</h1>
+
+    <div class="mt-5">
+
+        <button class="btn">Botão classe 1</button>
+        <button class="btn" [class.bg-red-900]="isRedButton">Botão classe 2</button>
+        <button class="btn" [class]="{
+            'bg-red-900': isRedButton,
+            'bg-sky-900': false,
+            'bg-sky-500/10': true
+        }">Botão objeto</button>
+
+    </div>
+
+
 </div>

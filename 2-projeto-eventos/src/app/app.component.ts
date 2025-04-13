@@ -68,4 +68,6 @@ export class AppComponent {
 
         return this.stylesObj;
     }
+
+    isRedButton = true;
 }
