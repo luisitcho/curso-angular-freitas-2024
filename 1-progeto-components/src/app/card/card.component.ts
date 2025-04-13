@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
 
 @Component({
     selector: 'app-card',
@@ -24,4 +24,8 @@ export class CardComponent {
             return `${this.preco}/Mês`;
         }
     }
+
+    @Input('playType') playType: string = '';
+    @Input({ alias: 'playPrice', required: true }) playPrice!: string;
+
 }
