@@ -28,4 +28,8 @@ export class CardComponent {
     @Input('playType') playType: string = '';
     @Input({ alias: 'playPrice', required: true }) playPrice!: string;
 
+    buttonClicked(e: boolean) {
+        console.log(e)
+        console.log(`Button clicked! ${Math.random()}`);
+    }
 }
