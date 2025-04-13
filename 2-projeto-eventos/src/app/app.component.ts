@@ -43,4 +43,29 @@ export class AppComponent {
         this.buttonTitle = `Clicou! ${Math.round(Math.random() * 100)}`;
         this.buttonDisabled = !this.buttonDisabled;
     }
+
+    widthButton1 = '110px';
+    widthButton2 = 130;
+
+    stylesObj = {
+        width: '160px',
+        backgroundColor: 'grey',
+    };
+
+    updateStyleObj() {
+        console.log('clicou');
+        this.stylesObj.width = '170px';
+        this.stylesObj.backgroundColor = 'lightblue';
+    }
+
+    updateStyleObjCorrect() {
+        this.stylesObj = {
+            ...this.stylesObj,
+            width: '170px',
+            backgroundColor: 'lightblue',
+        };
+        console.log('clicou');
+
+        return this.stylesObj;
+    }
 }

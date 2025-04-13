@@ -36,4 +36,28 @@
     </div>
 
     <hr>
+
+
+    <h1 class="font-medium mb-3 mt-5">CSS Binding</h1>
+
+    <div class="mt-5">
+        <button class="btn" style="width: 100px; background-color: aqua;">Botão 0</button>
+
+        <button class="btn" [style.width]="widthButton1" [style.backgroundColor]="'blue'">Botão 1</button>
+
+        <button class="btn" [style.width.px]="widthButton2" [style.backgroundColor]="'pink'">Botão 2</button>
+
+        <button class="btn" [style]="{ width: '140px', backgroundColor: 'brown' }">Botão 3</button>
+
+        <button class="btn" [style]="{ width: '150px', backgroundColor: 'orange' }">Botão 4</button>
+
+        <button class="btn" [style]="stylesObj">Botão 5</button>
+
+        <br />
+
+        <button class="btn" (click)="updateStyleObj()">Atualizar obj</button>
+        <button class="btn" (click)="updateStyleObjCorrect()">Atualizar obj correto</button>
+
+    </div>
+
 </div>
