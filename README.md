@@ -1,5 +1,10 @@
 # Angular
-Repositódio dedicado ao curso **"Angular: O Guia Definitivo das Principais Funcionalidades"**
+
+Repositório dedicado ao curso **Angular: O Guia Definitivo das Principais Funcionalidades**, ministrado pelo **Felipe da Silva Freitas**, focado no desenvolvimento de aplicações web modernas utilizando Angular e suas principais ferramentas.
+
+Durante o curso, foram abordados desde os fundamentos até os recursos mais avançados do framework, como componentização inteligente, modularização com NgModules e SCAM, Reactive Forms, HTTP requests com interceptadores, observables com RxJS, roteamento avançado, diretivas customizadas, pipes, injeção de dependência, lifecycles, Angular Material, entre outros.
+
+O projeto reflete a aplicação prática de boas práticas de organização de código, separação de responsabilidades e construção de aplicações escaláveis com TypeScript, HTML, CSS/SASS e padronização BEM, visando um código limpo, reutilizável e de fácil manutenção.
 
 <br>
 
