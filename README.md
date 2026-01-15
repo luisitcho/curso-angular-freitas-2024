@@ -10,17 +10,17 @@ O projeto reflete a aplicação prática de boas práticas de organização de c
 
 ## Comandos para Criar e Gerenciar Projetos Angular
 
-Abaixo estão alguns comandos úteis para criar e gerenciar projetos Angular, incluindo a flag ```--standalone```:
+Abaixo estão alguns comandos úteis para criar e gerenciar projetos Angular, incluindo a flag ```--no-standalone```:
 
-### Criar um novo projeto Angular com a flag ```--standalone```
+### Criar um novo projeto Angular com a flag ```--no-standalone``` (para arquitetura baseada em módulos)
 ```
-npx ng new meu-projeto --standalone
+npx ng new meu-projeto --no-standalone
 ```
 
-### Criar um componente standalone dentro do projeto
+### Criar um componente não standalone (associado a um módulo)
 
 ```
-npx ng generate component meu-componente --standalone
+npx ng generate component meu-componente --no-standalone
 ```
 
 ### Criar um novo serviço
