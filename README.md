@@ -17,6 +17,11 @@ Abaixo estão alguns comandos úteis para criar e gerenciar projetos Angular, in
 npx ng new meu-projeto --no-standalone
 ```
 
+Ou a forma explícita (útil para garantir a versão mais recente sem instalação global):
+```
+npx @angular/cli new meu-projeto --no-standalone
+```
+
 ### Criar um componente não standalone (associado a um módulo)
 
 ```
