@@ -50,7 +50,7 @@ npx ng serve
 
 ### Construir o projeto para produção
 ```
-npx ng build --prod
+npx ng build
 ```
 
 ### Rodar os testes unitários (com Karma)
@@ -58,7 +58,7 @@ npx ng build --prod
 npx ng test
 ```
 
-### Rodar os testes end-to-end (com Protractor)
+### Rodar os testes end-to-end (depende do framework configurado, ex: Cypress, Playwright)
 ```
 npx ng e2e
 ```
