@@ -5,9 +5,10 @@ import { Card } from '../../app/card/card';
 import { CardRoxo } from '../../app/card-roxo/card-roxo';
 import { CardButton } from '../../app/card-button/card-button';
 import { CardRoxoButton } from '../../app/card-roxo-button/card-roxo-button';
+import { CardButtonCancel } from '../card-button-cancel/card-button-cancel';
 
 @NgModule({
-    declarations: [Card, CardRoxo, CardButton, CardRoxoButton],
+    declarations: [Card, CardRoxo, CardButton, CardRoxoButton, CardButtonCancel],
     imports: [CommonModule],
     exports: [Card, CardRoxo, CardButton, CardRoxoButton],
 })
