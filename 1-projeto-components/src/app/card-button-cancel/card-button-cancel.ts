@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
     selector: 'app-card-button-cancel',
     standalone: false,
     templateUrl: './card-button-cancel.html',
-    styleUrls: ['./card-button-cancel.scss', './card-button-cancel-2.scss'],
+    styleUrls: ['./card-button-cancel.scss',],
 
     /*styles: [
         `

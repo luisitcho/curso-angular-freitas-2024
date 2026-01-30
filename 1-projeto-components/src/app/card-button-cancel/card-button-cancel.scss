@@ -1,9 +1,11 @@
+@use 'variables' as *;
+
 .card-cancel-button {
     font-size: 16px;
     text-align: center;
     margin-top: 10px;
     border-radius: 25px;
-    background-color: red;
+    background-color: $bgGreen;
     cursor: pointer;
     font-weight: bold;
     padding: 10px;
